@@ -1,0 +1,5 @@
+length = input("Вкажіть довжину вашого поля у футах: ")
+width = input("Вкажіть ширину вашого поля у футах: ")
+area = int(length) * int(width)
+acres = (area/43560)
+print(f"Площа вашого поля в акрах: {round(acres)}.")

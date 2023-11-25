@@ -1,0 +1,4 @@
+num1 = input("Вкажіть число 1: ")
+num2 = input("Вкажіть число 2: ")
+s = int(num1) * int(num2)
+print(f"S = {s}.")

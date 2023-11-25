@@ -1,0 +1,5 @@
+num = input("Вкажіть будь-яке число: ")
+more = int(num) + 1
+less = int(num) - 1
+print(f"Після числа {num} йде число {more}.")
+print(f"Перед числом {num} йде число {less}.")
